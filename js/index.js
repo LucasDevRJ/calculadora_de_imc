@@ -5,7 +5,8 @@ function calcularImc() {
 	var altura = alturaDigitada.value;
 	var peso = pesoDigitado.value;
 
-	var resposta = document.getElementById("resposta");
+	var textoResposta = document.getElementById("resposta");
+	var textoClassificacao = document.getElementById("classificacao");
 
 	console.log(altura);
 	console.log(peso);
@@ -15,5 +16,20 @@ function calcularImc() {
 
 	console.log(imc);
 
-	resposta.textContent = "O IMC calculado equivale a " + imcFormatado;
+	var classificacao;
+
+	if (imc < 18.5) {
+		classificacao = "Magreza";
+	} else if (imc < 24.9) {
+		classificacao = "Normal";
+	} else if (imc < 29.9) {
+		classificacao = "Sobrepeso";
+	} else if (imc < 39.9) {
+		classificacao = "Obesidade";
+	} else {
+		classificacao = "Obesidade Grave";
+	}
+ 
+	textoResposta.textContent = "O IMC calculado equivale a " + imcFormatado;
+	textoClassificacao.textContent = "Classificacao: " + classificacao;
 }
