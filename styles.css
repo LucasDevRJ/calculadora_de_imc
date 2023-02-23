@@ -1,3 +1,8 @@
+.cabecalho {
+	background-color: #87CEEB;
+	padding: 40px;
+}
+
 .calculadora {
 	display: flex;
 	flex-direction: column;
@@ -6,6 +11,10 @@
 	align-items: center;
 	align-content: center;
 	gap: 10px;
+}
+
+.texto {
+	font-size: 18px;
 }
 
 .entrada {
