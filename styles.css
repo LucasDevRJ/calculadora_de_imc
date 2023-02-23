@@ -3,6 +3,11 @@
 	padding: 40px;
 }
 
+.titulo {
+	font-size: 30px;
+	font-weight: bold;
+}
+
 .calculadora {
 	display: flex;
 	flex-direction: column;
