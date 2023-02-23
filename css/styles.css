@@ -69,3 +69,7 @@
 .logo {
 	height: 50px;
 }
+
+.logo:hover {
+	transform: scale(1.2);
+}
