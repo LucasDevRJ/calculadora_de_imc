@@ -1,6 +1,7 @@
 .cabecalho {
 	background-color: #87CEEB;
-	padding: 40px;
+	padding: 60px;
+	margin-bottom: 70px;
 }
 
 .titulo {
@@ -20,11 +21,16 @@
 
 .texto {
 	font-size: 18px;
+	margin-bottom: 10px;
 }
 
 .entrada {
 	padding: 12px 22px;
 	font-size: 16px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-color: #ADD8E6;
+	border-radius: 5px;
 }
 
 .botao {
