@@ -8,6 +8,7 @@
 	font-size: 30px;
 	font-weight: bold;
 	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .calculadora {
@@ -23,6 +24,7 @@
 .texto {
 	font-size: 18px;
 	margin: 10px 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .entrada {
@@ -32,6 +34,7 @@
 	border-style: solid;
 	border-color: #ADD8E6;
 	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .botao {
