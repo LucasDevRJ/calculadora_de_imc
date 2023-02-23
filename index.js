@@ -5,6 +5,8 @@ function calcularImc() {
 	var altura = alturaDigitada.value;
 	var peso = pesoDigitado.value;
 
+	var resposta = document.getElementById("resposta");
+
 	console.log(altura);
 	console.log(peso);
 
@@ -13,6 +15,5 @@ function calcularImc() {
 
 	console.log(imc);
 
-	var resposta = document.getElementById("resposta");
 	resposta.textContent = "O IMC calculado equivale a " + imcFormatado;
 }
