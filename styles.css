@@ -55,5 +55,11 @@
 }
 
 .rodape {
+	background-color: #00BFFF;
+	padding: 90px;
+	display: flex;
+}
 
+.logo {
+	height: 50px;
 }
