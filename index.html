@@ -8,12 +8,15 @@
 </head>
 <body>
 	<div class="calculadora">
-		Digite a altura
-		<input id="altura"/>
-		Digite o peso
-		<input id="peso"/>
-		<button onclick="calcularImc()">Calcular IMC</button>
-		<p id="resposta"></p>
+		<p class="texto">Digite a altura:</p>
+		<input class="entrada" id="altura"/>
+
+		<p class="texto">Digite o peso:</p>
+		<input class="entrada" id="peso"/>
+
+		<button class="botao" onclick="calcularImc()">Calcular IMC</button>
+
+		<p class="texto" id="resposta"></p>
 	</div>
 
 	<script src="index.js"></script>
