@@ -9,6 +9,8 @@ Programa que calcula IMC (Índice de Massa Corporal), além de calcular ainda cl
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20Finalizado&color=GREEN&style=for-the-badge)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Desenvolvedor&message=%20LucasDevRJ&color=GREEN&style=for-the-badge)
 
+https://user-images.githubusercontent.com/95040236/221059703-8a3b97a4-b6e4-4edf-b99d-aac84b052e69.mp4
+
 # :hammer: Funcionalidades do projeto
 
 - `Funcionalidade`: Calcular IMC
